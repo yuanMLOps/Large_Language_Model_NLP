@@ -2,3 +2,4 @@ data/
 **/.ipynb_checkpoints/
 **/*.pt
 **/lightning_logs/
+**/*.env
