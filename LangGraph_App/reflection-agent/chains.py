@@ -2,7 +2,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from pathlib import Path
-import os
+
 
 load_dotenv(dotenv_path=Path("../../.env"))
 # print(os.getenv("OPENAI_API_KEY"))
